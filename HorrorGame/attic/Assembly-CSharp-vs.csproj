@@ -46,8 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\MoltenMetalStudios\LightFlickerPulse\_Demo\SceneScripts\BenchLighting.cs" />
-     <Compile Include="Assets\MoltenMetalStudios\LightFlickerPulse\_Demo\SceneScripts\CameraAngles.cs" />
      <Compile Include="Assets\Scripts\LightFlick.cs" />
      <Compile Include="Assets\Scripts\LightFlickerPulse.cs" />
      <None Include="Assets\Wood texture floor_01\readme.txt" />
