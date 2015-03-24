@@ -1,10 +1,15 @@
-﻿
+﻿import UnityEngine.UI;
+
 var toggleGUI : boolean;
 var keycount = 0;
-
+var someText: Text;
 
  function Start() { 
  toggleGUI = false;
+ 
+ GetComponent(UI.Text);
+ someText = GetComponent.<Text>();
+ 
  }
  
   function OnTriggerEnter (other : Collider) {
@@ -23,9 +28,10 @@ var keycount = 0;
   	
   	if(Input.GetMouseButtonDown(0)){
   		Destroy(gameObject);
-  		GUI.Label (Rect (10, 300, 100, 20), "You have a KEY");
+  		//GUI.Label (Rect (10, 300, 100, 20), "You have a KEY");
  		Debug.Log ("Key was picked up");
  		keycount = 1;
+ 		someText.text = "Hello and junk";
   		}
   }
 
