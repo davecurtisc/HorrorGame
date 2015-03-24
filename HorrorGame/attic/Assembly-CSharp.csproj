@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\LightFlick.cs" />
      <Compile Include="Assets\Scripts\LightFlickerPulse.cs" />
      <None Include="Assets\Wood texture floor_01\readme.txt" />
  <Reference Include="UnityEngine.UI">
