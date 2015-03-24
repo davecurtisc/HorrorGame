@@ -1,8 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\LightFlicker.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GUI_door.js">
     <Files>
-      <File FileName="Assets\LightFlicker.js" Line="7" Column="9" />
+      <File FileName="Assets\Scripts\GUI_doorlock.js" Line="18" Column="61" />
+      <File FileName="Assets\Scripts\GUI_door.js" Line="21" Column="42" />
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\AudioWalk.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

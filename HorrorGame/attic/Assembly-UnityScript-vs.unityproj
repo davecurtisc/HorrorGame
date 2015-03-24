@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\GUI_door.js" />
+     <Compile Include="Assets\Scripts\GUI_doorlock.js" />
      <Compile Include="Assets\Scripts\GUI_key.js" />
      <Compile Include="Assets\Scripts\LightFlicker.js" />
      <None Include="Assets\Wood texture floor_01\readme.txt" />
