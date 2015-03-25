@@ -1,12 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\KeyCount.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GUI_door.js">
     <Files>
-      <File FileName="Assets\Scripts\LightFlickerPulse.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GUI_doorlock.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GUI_door.js" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\AudioWalk.js" Line="1" Column="1" />
-      <File FileName="Assets\KeyCount.cs" Line="29" Column="5" />
+      <File FileName="Assets\Scripts\GUI_door.js" Line="18" Column="55" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

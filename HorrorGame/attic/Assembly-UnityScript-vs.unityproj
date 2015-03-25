@@ -48,11 +48,12 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\GUI_door.js" />
      <Compile Include="Assets\Scripts\GUI_doorlock.js" />
+     <Compile Include="Assets\Scripts\GUI_drawer.js" />
      <Compile Include="Assets\Scripts\GUI_key.js" />
      <Compile Include="Assets\Scripts\LightFlicker.js" />
      <None Include="Assets\Wood texture floor_01\readme.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/dcurtis/Documents/GitHub/HorrorGame/HorrorGame/attic/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/David/Desktop/HorrorGame/HorrorGame/attic/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
