@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GUI_door.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GUI_drawer.js">
     <Files>
-      <File FileName="Assets\Scripts\GUI_door.js" Line="18" Column="55" />
+      <File FileName="Assets\Scripts\GUI_door.js" Line="26" Column="4" />
+      <File FileName="Assets\Scripts\GUI_drawer.js" Line="18" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
