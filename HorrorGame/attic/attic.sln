@@ -5,6 +5,8 @@ Project("{0535C94E-1CDD-AD7C-A2B9-19FB9C89F77E}") = "attic", "Assembly-CSharp-fi
 EndProject
 Project("{0535C94E-1CDD-AD7C-A2B9-19FB9C89F77E}") = "attic", "Assembly-CSharp.csproj", "{F468C034-3258-09FC-B9D5-C291AFD8EA8B}"
 EndProject
+Project("{0535C94E-1CDD-AD7C-A2B9-19FB9C89F77E}") = "attic", "Assembly-CSharp-Editor.csproj", "{A5F60874-CC90-71FE-4A05-DE7B24E5E5CF}"
+EndProject
 Project("{0535C94E-1CDD-AD7C-A2B9-19FB9C89F77E}") = "attic", "Assembly-UnityScript-firstpass.unityproj", "{77B2B9FA-B8CE-128B-F82B-D30883DF949D}"
 EndProject
 Project("{0535C94E-1CDD-AD7C-A2B9-19FB9C89F77E}") = "attic", "Assembly-UnityScript.unityproj", "{362A23C9-A8CA-4A76-AC9E-8F1514524611}"
@@ -23,6 +25,10 @@ Global
 		{F468C034-3258-09FC-B9D5-C291AFD8EA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F468C034-3258-09FC-B9D5-C291AFD8EA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F468C034-3258-09FC-B9D5-C291AFD8EA8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F60874-CC90-71FE-4A05-DE7B24E5E5CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F60874-CC90-71FE-4A05-DE7B24E5E5CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F60874-CC90-71FE-4A05-DE7B24E5E5CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F60874-CC90-71FE-4A05-DE7B24E5E5CF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{77B2B9FA-B8CE-128B-F82B-D30883DF949D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{77B2B9FA-B8CE-128B-F82B-D30883DF949D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77B2B9FA-B8CE-128B-F82B-D30883DF949D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -35,7 +41,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																								GlobalSection(MonoDevelopProperties) = preSolution
+																																																								GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

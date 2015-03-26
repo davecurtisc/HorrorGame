@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GUI_drawer.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\StoryJS.js">
     <Files>
-      <File FileName="Assets\Scripts\GUI_door.js" Line="26" Column="4" />
-      <File FileName="Assets\Scripts\GUI_drawer.js" Line="18" Column="32" />
+      <File FileName="Assets\Scripts\Candle.cs" Line="6" Column="1" />
+      <File FileName="Assets\Scripts\Story.cs" Line="53" Column="2" />
+      <File FileName="Assets\Scripts\StoryJS.js" Line="29" Column="53" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
