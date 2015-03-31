@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\KeyCount.cs" />
+     <Compile Include="Assets\Light_Candle.cs" />
      <Compile Include="Assets\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs" />
      <Compile Include="Assets\ParticleSystems\Scripts\ExplosionFireAndDebris.cs" />
      <Compile Include="Assets\ParticleSystems\Scripts\ExplosionPhysicsForce.cs" />
@@ -57,6 +58,7 @@
      <Compile Include="Assets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
      <Compile Include="Assets\ParticleSystems\Scripts\SmokeParticles.cs" />
      <Compile Include="Assets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
+     <Compile Include="Assets\Pickup_Candle.cs" />
      <Compile Include="Assets\Scripts\Candle.cs" />
      <Compile Include="Assets\Scripts\Candle_off.cs" />
      <Compile Include="Assets\Scripts\LightFlickerPulse.cs" />
@@ -70,7 +72,7 @@
      <None Include="Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
      <None Include="Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/dcurtis/Desktop/HorrorGame/HorrorGame/attic/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/dcurtis/Documents/GitHub/HorrorGame/HorrorGame/attic/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

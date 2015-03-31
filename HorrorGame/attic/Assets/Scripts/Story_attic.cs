@@ -12,8 +12,10 @@ public class Story_attic : MonoBehaviour {
 
 	private string[] outputTips = 
 	{
-		"Find and use a matchbox to be able to see",
+		"Find and and pickup a candle to see (LMB)",
 	};
+
+	private static int hascandle;
 
 	// Use this for initialization
 	void Start () {
@@ -24,13 +26,13 @@ public class Story_attic : MonoBehaviour {
 	void Update () {
 
 		text_timeLeft -= Time.deltaTime;
-		if(text_timeLeft < 0)
-		{
-			//turn off text
-			//canvas.enabled = false;
-			
-			
-		}
+			if(text_timeLeft < 0)
+			{
+				//turn off text
+				//canvas.enabled = false;
+			}
+		hascandle = Pickup_Candle.pickedup;
+
 	}
 
 	private IEnumerator Wait(int value) // 2 second delay on the mouse press
