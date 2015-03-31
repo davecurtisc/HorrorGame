@@ -7,7 +7,7 @@ public class KeyCount : MonoBehaviour {
 	public Text output;
 	
 	private bool withinRadius;
-	private static int keyCount = 0;
+	public static int keyCount = 0;
 	
 	void Awake()
 	{

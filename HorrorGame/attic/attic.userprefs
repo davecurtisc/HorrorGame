@@ -1,11 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Story_attic.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GUI_door.js">
     <Files>
+      <File FileName="Assets\Scripts\Story_attic.cs" Line="15" Column="79" />
       <File FileName="Assets\Pickup_Candle.cs" Line="19" Column="43" />
       <File FileName="Assets\Scripts\Candle_off.cs" Line="21" Column="28" />
       <File FileName="Assets\Scripts\Lights_off.cs" Line="41" Column="77" />
-      <File FileName="Assets\Scripts\Story_attic.cs" Line="34" Column="38" />
+      <File FileName="Assets\Scripts\Story.cs" Line="14" Column="3" />
+      <File FileName="Assets\KeyCount.cs" Line="10" Column="8" />
+      <File FileName="Assets\Scripts\GUI_door.js" Line="2" Column="93" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
