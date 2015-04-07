@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Light_Candle.cs" />
      <Compile Include="Assets\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs" />
      <Compile Include="Assets\ParticleSystems\Scripts\ExplosionFireAndDebris.cs" />
      <Compile Include="Assets\ParticleSystems\Scripts\ExplosionPhysicsForce.cs" />
@@ -57,20 +56,26 @@
      <Compile Include="Assets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
      <Compile Include="Assets\ParticleSystems\Scripts\SmokeParticles.cs" />
      <Compile Include="Assets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
-     <Compile Include="Assets\Pickup_Candle.cs" />
      <Compile Include="Assets\Scripts\Candle.cs" />
      <Compile Include="Assets\Scripts\Candle_off.cs" />
      <Compile Include="Assets\Scripts\Door_attic.cs" />
      <Compile Include="Assets\Scripts\KeyCount.cs" />
      <Compile Include="Assets\Scripts\LightFlickerPulse.cs" />
+     <Compile Include="Assets\Scripts\Light_Candle.cs" />
      <Compile Include="Assets\Scripts\Lights_off.cs" />
+     <Compile Include="Assets\Scripts\Pickup_Candle.cs" />
      <Compile Include="Assets\Scripts\Story.cs" />
      <Compile Include="Assets\Scripts\Story_attic.cs" />
+     <Compile Include="Assets\Scripts\laser_Levels.cs" />
      <None Include="Assets\Materials\Wood texture floor_01\readme.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
      <None Include="Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
      <None Include="Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
