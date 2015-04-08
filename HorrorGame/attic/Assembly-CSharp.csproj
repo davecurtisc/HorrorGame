@@ -59,6 +59,7 @@
      <Compile Include="Assets\Scripts\Candle.cs" />
      <Compile Include="Assets\Scripts\Candle_off.cs" />
      <Compile Include="Assets\Scripts\Door_attic.cs" />
+     <Compile Include="Assets\Scripts\Door_hallway.cs" />
      <Compile Include="Assets\Scripts\KeyCount.cs" />
      <Compile Include="Assets\Scripts\LightFlickerPulse.cs" />
      <Compile Include="Assets\Scripts\Light_Candle.cs" />
