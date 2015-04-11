@@ -89,9 +89,18 @@ public class laser_Levels : MonoBehaviour {
 	public bool Puller2_down = false;
 	public bool Puller3_down = false;
 	public bool Puller4_down = false;
+	public bool Puller5_down = false;
+	public bool Puller6_down = false;
+	public bool Puller7_down = false;
+	public bool Puller8_down = false;
+	public bool Puller9_down = false;
 
 	public GameObject fire1;
 	public GameObject fire2;
+	public GameObject fire3;
+	public GameObject fire4;
+	public GameObject fire5;
+	public GameObject fire6;
 
 	// Use this for initialization
 	void Start () {
@@ -110,6 +119,7 @@ public class laser_Levels : MonoBehaviour {
 			//lever pull
 			Puller1.transform.eulerAngles = new Vector3(3,90,315);
 			Puller1_down = true;
+
 
 			fire1.SetActive(false);
 
@@ -130,18 +140,26 @@ public class laser_Levels : MonoBehaviour {
 		if (CanPressLever3 == true && Input.GetMouseButtonDown (0)) {
 			Rod3_on = !Rod3_on;
 			Rod3.SetActive(Rod3_on);
-			print ("Rod3 should be toggled");
+			print ("Puller3 should be toggled");
 
 			Puller3.transform.eulerAngles = new Vector3(66,-182,1);
 			Puller3_down = true;
+
+			fire3.SetActive(false);
 			
 		}
 
 		if (CanPressLever4 == true && Input.GetMouseButtonDown(0)) {
 			//Rod4.SetActive (true);
-			print ("Rod4 should be toggled");
-			Rod4_on = !Rod4_on;
-			Rod4.SetActive(Rod4_on);
+			print ("Puller4 should be toggled");
+			//Rod4_on = !Rod4_on;
+			//Rod4.SetActive(Rod4_on);
+
+			Puller4.transform.eulerAngles = new Vector3(50,180,3);
+			Puller4_down = true;
+			
+			fire4.SetActive(false);
+
 		}
 
 		if (CanPressLever5 == true && Input.GetMouseButtonDown (0)) {
@@ -149,12 +167,22 @@ public class laser_Levels : MonoBehaviour {
 			Rod1.SetActive(Rod1_on);
 			print ("Rod1 should be toggled");
 
+			Puller5.transform.eulerAngles = new Vector3(-52,175,3);
+			Puller5_down = true;
+			
+			fire1.SetActive(true);
+
 			}
 
 		if (CanPressLever6 == true && Input.GetMouseButtonDown (0)) {
 			Rod5_on = !Rod5_on;
 			Rod5.SetActive(Rod5_on);
 			print ("Rod5 should be toggled");
+
+			Puller6.transform.eulerAngles = new Vector3(305,175,3);
+			Puller6_down = true;
+			
+			fire5.SetActive(false);
 			
 		}
 
@@ -162,6 +190,11 @@ public class laser_Levels : MonoBehaviour {
 			Rod4_on = !Rod4_on;
 			Rod4.SetActive(Rod4_on);
 			print ("Rod4 should be toggled");
+
+			Puller7.transform.eulerAngles = new Vector3(48,179,3);
+			Puller7_down = true;
+			
+			fire4.SetActive(true);
 			
 		}
 
@@ -169,6 +202,11 @@ public class laser_Levels : MonoBehaviour {
 			Rod6_on = !Rod6_on;
 			Rod6.SetActive(Rod6_on);
 			print ("Rod6 should be toggled");
+
+			Puller8.transform.eulerAngles = new Vector3(50,-179,3);
+			Puller8_down = true;
+			
+			fire6.SetActive(false);
 			
 		}
 
@@ -176,6 +214,11 @@ public class laser_Levels : MonoBehaviour {
 			Rod1_on = !Rod1_on;
 			Rod1.SetActive(Rod1_on);
 			print ("Rod6 should be toggled");
+
+			Puller9.transform.eulerAngles = new Vector3(57,-178,3);
+			Puller9_down = true;
+			
+			fire1.SetActive(true);
 			
 		}
 
