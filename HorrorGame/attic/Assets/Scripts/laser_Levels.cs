@@ -3,6 +3,7 @@ using System.Collections;
 
 public class laser_Levels : MonoBehaviour {
 
+	//levers
 	public GameObject Lever1;
 	public GameObject Lever2;
 	public GameObject Lever3;
@@ -14,7 +15,21 @@ public class laser_Levels : MonoBehaviour {
 	public GameObject Lever9;
 	public GameObject Lever10;
 	public GameObject Lever11;
-	
+
+	//lever pulls
+	public GameObject Puller1;
+	public GameObject Puller2;
+	public GameObject Puller3;
+	public GameObject Puller4;
+	public GameObject Puller5;
+	public GameObject Puller6;
+	public GameObject Puller7;
+	public GameObject Puller8;
+	public GameObject Puller9;
+	public GameObject Puller10;
+	public GameObject Puller11;
+
+	//rods for setactive
 	public GameObject Rod1;
 	public GameObject Rod2;
 	public GameObject Rod3;
@@ -35,7 +50,7 @@ public class laser_Levels : MonoBehaviour {
 	public GameObject Rod18;
 	public GameObject Rod19;
 	
-	
+	//bools for collision
 	public bool CanPressLever1 = false;
 	public bool CanPressLever2 = false;
 	public bool CanPressLever3 = false;
@@ -48,7 +63,7 @@ public class laser_Levels : MonoBehaviour {
 	public bool CanPressLever10 = false;
 	public bool CanPressLever11 = false;
 	
-
+	//bools for pull proofing
 	public bool Rod1_on = true;
 	public bool Rod2_on = true;
 	public bool Rod3_on = true;
@@ -83,6 +98,9 @@ public class laser_Levels : MonoBehaviour {
 			Rod1_on = !Rod1_on;
 			Rod1.SetActive(Rod1_on);
 			print ("Rod1 should be toggled");
+
+			//lever pull
+			Puller1.transform.Rotate(0,20,0);
 
 		}
 
