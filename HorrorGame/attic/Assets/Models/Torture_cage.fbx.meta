@@ -1,0 +1,332 @@
+fileFormatVersion: 2
+guid: a7730e52bd5a37540a6dd08ec97f6bfd
+timeCreated: 1428733691
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: group10
+    100002: group11
+    100004: group12
+    100006: group15
+    100008: group16
+    100010: group17
+    100012: group18
+    100014: group19
+    100016: group20
+    100018: group7
+    100020: group8
+    100022: group9
+    100024: pCube10
+    100026: pCube10 1
+    100028: pCube10 2
+    100030: pCube10 3
+    100032: pCube11
+    100034: pCube11 1
+    100036: pCube11 2
+    100038: pCube11 3
+    100040: pCube7
+    100042: pCube8
+    100044: pCube9
+    100046: pCylinder1
+    100048: pPyramid2
+    100050: pPyramid2 1
+    100052: pPyramid2 2
+    100054: pPyramid3
+    100056: pPyramid3 1
+    100058: pPyramid3 2
+    100060: pPyramid4
+    100062: pPyramid4 1
+    100064: pPyramid4 2
+    100066: pPyramid5
+    100068: pPyramid5 1
+    100070: pPyramid5 2
+    100072: pPyramid6
+    100074: pPyramid6 1
+    100076: pPyramid7
+    100078: pPyramid7 1
+    100080: pTorus1
+    100082: pTorus10
+    100084: pTorus11
+    100086: pTorus12
+    100088: pTorus13
+    100090: pTorus14
+    100092: pTorus15
+    100094: pTorus16
+    100096: pTorus17
+    100098: pTorus18
+    100100: pTorus19
+    100102: pTorus2
+    100104: pTorus20
+    100106: pTorus3
+    100108: pTorus4
+    100110: pTorus5
+    100112: pTorus6
+    100114: pTorus7
+    100116: pTorus8
+    100118: pTorus9
+    100120: //RootNode
+    400000: group10
+    400002: group11
+    400004: group12
+    400006: group15
+    400008: group16
+    400010: group17
+    400012: group18
+    400014: group19
+    400016: group20
+    400018: group7
+    400020: group8
+    400022: group9
+    400024: pCube10
+    400026: pCube10 1
+    400028: pCube10 2
+    400030: pCube10 3
+    400032: pCube11
+    400034: pCube11 1
+    400036: pCube11 2
+    400038: pCube11 3
+    400040: pCube7
+    400042: pCube8
+    400044: pCube9
+    400046: pCylinder1
+    400048: pPyramid2
+    400050: pPyramid2 1
+    400052: pPyramid2 2
+    400054: pPyramid3
+    400056: pPyramid3 1
+    400058: pPyramid3 2
+    400060: pPyramid4
+    400062: pPyramid4 1
+    400064: pPyramid4 2
+    400066: pPyramid5
+    400068: pPyramid5 1
+    400070: pPyramid5 2
+    400072: pPyramid6
+    400074: pPyramid6 1
+    400076: pPyramid7
+    400078: pPyramid7 1
+    400080: pTorus1
+    400082: pTorus10
+    400084: pTorus11
+    400086: pTorus12
+    400088: pTorus13
+    400090: pTorus14
+    400092: pTorus15
+    400094: pTorus16
+    400096: pTorus17
+    400098: pTorus18
+    400100: pTorus19
+    400102: pTorus2
+    400104: pTorus20
+    400106: pTorus3
+    400108: pTorus4
+    400110: pTorus5
+    400112: pTorus6
+    400114: pTorus7
+    400116: pTorus8
+    400118: pTorus9
+    400120: //RootNode
+    2300000: pCube10
+    2300002: pCube10 1
+    2300004: pCube10 2
+    2300006: pCube10 3
+    2300008: pCube11
+    2300010: pCube11 1
+    2300012: pCube11 2
+    2300014: pCube11 3
+    2300016: pCube7
+    2300018: pCube8
+    2300020: pCube9
+    2300022: pCylinder1
+    2300024: pPyramid2
+    2300026: pPyramid2 1
+    2300028: pPyramid2 2
+    2300030: pPyramid3
+    2300032: pPyramid3 1
+    2300034: pPyramid3 2
+    2300036: pPyramid4
+    2300038: pPyramid4 1
+    2300040: pPyramid4 2
+    2300042: pPyramid5
+    2300044: pPyramid5 1
+    2300046: pPyramid5 2
+    2300048: pPyramid6
+    2300050: pPyramid6 1
+    2300052: pPyramid7
+    2300054: pPyramid7 1
+    2300056: pTorus1
+    2300058: pTorus10
+    2300060: pTorus11
+    2300062: pTorus12
+    2300064: pTorus13
+    2300066: pTorus14
+    2300068: pTorus15
+    2300070: pTorus16
+    2300072: pTorus17
+    2300074: pTorus18
+    2300076: pTorus19
+    2300078: pTorus2
+    2300080: pTorus20
+    2300082: pTorus3
+    2300084: pTorus4
+    2300086: pTorus5
+    2300088: pTorus6
+    2300090: pTorus7
+    2300092: pTorus8
+    2300094: pTorus9
+    3300000: pCube10
+    3300002: pCube10 1
+    3300004: pCube10 2
+    3300006: pCube10 3
+    3300008: pCube11
+    3300010: pCube11 1
+    3300012: pCube11 2
+    3300014: pCube11 3
+    3300016: pCube7
+    3300018: pCube8
+    3300020: pCube9
+    3300022: pCylinder1
+    3300024: pPyramid2
+    3300026: pPyramid2 1
+    3300028: pPyramid2 2
+    3300030: pPyramid3
+    3300032: pPyramid3 1
+    3300034: pPyramid3 2
+    3300036: pPyramid4
+    3300038: pPyramid4 1
+    3300040: pPyramid4 2
+    3300042: pPyramid5
+    3300044: pPyramid5 1
+    3300046: pPyramid5 2
+    3300048: pPyramid6
+    3300050: pPyramid6 1
+    3300052: pPyramid7
+    3300054: pPyramid7 1
+    3300056: pTorus1
+    3300058: pTorus10
+    3300060: pTorus11
+    3300062: pTorus12
+    3300064: pTorus13
+    3300066: pTorus14
+    3300068: pTorus15
+    3300070: pTorus16
+    3300072: pTorus17
+    3300074: pTorus18
+    3300076: pTorus19
+    3300078: pTorus2
+    3300080: pTorus20
+    3300082: pTorus3
+    3300084: pTorus4
+    3300086: pTorus5
+    3300088: pTorus6
+    3300090: pTorus7
+    3300092: pTorus8
+    3300094: pTorus9
+    4300000: pCube7
+    4300002: pCube8
+    4300004: pCube9
+    4300006: pCube10
+    4300008: pCube11
+    4300010: pCube10
+    4300012: pCube11
+    4300014: pCube10
+    4300016: pCube11
+    4300018: pCube10
+    4300020: pCube11
+    4300022: pCylinder1
+    4300024: pTorus1
+    4300026: pTorus2
+    4300028: pTorus3
+    4300030: pTorus4
+    4300032: pTorus5
+    4300034: pTorus6
+    4300036: pTorus7
+    4300038: pTorus8
+    4300040: pTorus13
+    4300042: pTorus14
+    4300044: pTorus15
+    4300046: pTorus16
+    4300048: pTorus9
+    4300050: pTorus10
+    4300052: pTorus11
+    4300054: pTorus12
+    4300056: pTorus17
+    4300058: pTorus18
+    4300060: pTorus19
+    4300062: pTorus20
+    4300064: pPyramid3
+    4300066: pPyramid2
+    4300068: pPyramid4
+    4300070: pPyramid5
+    4300072: pPyramid6
+    4300074: pPyramid7
+    4300076: pPyramid6
+    4300078: pPyramid7
+    4300080: pPyramid4
+    4300082: pPyramid5
+    4300084: pPyramid2
+    4300086: pPyramid3
+    4300088: pPyramid4
+    4300090: pPyramid5
+    4300092: pPyramid2
+    4300094: pPyramid3
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

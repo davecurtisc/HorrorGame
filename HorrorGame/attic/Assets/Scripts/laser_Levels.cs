@@ -83,7 +83,15 @@ public class laser_Levels : MonoBehaviour {
 	public bool Rod17_on = true;
 	public bool Rod18_on = true;
 	public bool Rod19_on = true;
-	
+
+
+	public bool Puller1_down = false;
+	public bool Puller2_down = false;
+	public bool Puller3_down = false;
+	public bool Puller4_down = false;
+
+	public GameObject fire1;
+	public GameObject fire2;
 
 	// Use this for initialization
 	void Start () {
@@ -100,21 +108,32 @@ public class laser_Levels : MonoBehaviour {
 			print ("Rod1 should be toggled");
 
 			//lever pull
-			Puller1.transform.Rotate(0,20,0);
+			Puller1.transform.eulerAngles = new Vector3(3,90,315);
+			Puller1_down = true;
+
+			fire1.SetActive(false);
 
 		}
-
 	
 		if (CanPressLever2 == true && Input.GetMouseButtonDown (0)) {
 			Rod2_on = !Rod2_on;
 			Rod2.SetActive(Rod2_on);
 			print ("Rod2 should be toggled");
+
+			//lever pull
+			Puller2.transform.eulerAngles = new Vector3(39,176,1);
+			Puller2_down = true;
+
+			fire2.SetActive(false);
 			
 		}
 		if (CanPressLever3 == true && Input.GetMouseButtonDown (0)) {
 			Rod3_on = !Rod3_on;
 			Rod3.SetActive(Rod3_on);
 			print ("Rod3 should be toggled");
+
+			Puller3.transform.eulerAngles = new Vector3(66,-182,1);
+			Puller3_down = true;
 			
 		}
 
