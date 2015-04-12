@@ -94,6 +94,7 @@ public class laser_Levels : MonoBehaviour {
 	public bool Puller7_down = false;
 	public bool Puller8_down = false;
 	public bool Puller9_down = false;
+	public bool Puller10_down = false;
 
 	public GameObject fire1;
 	public GameObject fire2;
@@ -101,6 +102,9 @@ public class laser_Levels : MonoBehaviour {
 	public GameObject fire4;
 	public GameObject fire5;
 	public GameObject fire6;
+	public GameObject fire7;
+
+	public GameObject cage;
 
 	// Use this for initialization
 	void Start () {
@@ -226,47 +230,20 @@ public class laser_Levels : MonoBehaviour {
 			Rod7_on = !Rod7_on;
 			Rod7.SetActive(Rod7_on);
 			print ("Rod7 should be toggled");
+
+			Puller10.transform.eulerAngles = new Vector3(2,-92,-66);
+			Puller10_down = true;
+			
+			fire7.SetActive(false);
 			
 		}
 
 		if (CanPressLever11 == true && Input.GetMouseButtonDown (0)) {
-			Rod8_on = !Rod8_on;
-			Rod8.SetActive(Rod8_on);
-
-			Rod9_on = !Rod9_on;
-			Rod9.SetActive(Rod9_on);
-
-			Rod10_on = !Rod10_on;
-			Rod10.SetActive(Rod10_on);
-
-			Rod11_on = !Rod11_on;
-			Rod11.SetActive(Rod11_on);
-
-			Rod12_on = !Rod12_on;
-			Rod12.SetActive(Rod12_on);
-
-			Rod13_on = !Rod13_on;
-			Rod13.SetActive(Rod13_on);
-
-			Rod14_on = !Rod14_on;
-			Rod14.SetActive(Rod14_on);
-
-			Rod15_on = !Rod15_on;
-			Rod15.SetActive(Rod15_on);
-
-			Rod16_on = !Rod16_on;
-			Rod16.SetActive(Rod16_on);
-			
-			Rod17_on = !Rod17_on;
-			Rod17.SetActive(Rod17_on);
-			
-			Rod18_on = !Rod18_on;
-			Rod18.SetActive(Rod18_on);
-			
-			Rod19_on = !Rod19_on;
-			Rod19.SetActive(Rod19_on);
+			//Rod8_on = !Rod8_on;
+			//Rod8.SetActive(Rod8_on);
 		
-			print ("Rod8-16 should be toggled");
+			print ("Rod8 should be toggled");
+			cage.transform.position = new Vector3(-137,5,-117);
 			
 		}
 	}
