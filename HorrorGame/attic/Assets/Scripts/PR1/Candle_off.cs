@@ -8,7 +8,8 @@ public class Candle_off : MonoBehaviour {
 	public int Counter = 0;
 
 	float timeLeft = 2.0f;
-	//private Light Candles;
+
+	private static bool candle_req;
 
 	// Use this for initialization
 	void Start () {
@@ -17,6 +18,9 @@ public class Candle_off : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+		candle_req = Pickup_Candle.pickedup;
+
 		timeLeft -= Time.deltaTime;
 		if(timeLeft < 0 && Counter == 0)
 		{
@@ -27,7 +31,7 @@ public class Candle_off : MonoBehaviour {
 			print("The particle should be off");
 
 		}
-		if (Input.GetMouseButtonDown (0) && Counter == 1 && withinRadius == true) 
+		if (candle_req == true && Input.GetMouseButtonDown (0) && Counter == 1 && withinRadius == true) 
 			
 		{
 			//turn on lights

@@ -4,7 +4,11 @@ using System.Collections;
 public class Pickup_Candle : MonoBehaviour {
 	
 	private bool withinRadius;
+
 	public GameObject candle;
+
+	public GameObject newcandle;
+
 	public static bool pickedup = false;
 	
 	// Use this for initialization
@@ -18,8 +22,10 @@ public class Pickup_Candle : MonoBehaviour {
 		if(Input.GetMouseButtonDown(0)
 		   && withinRadius && pickedup == false)
 		{
-			Destroy(gameObject);
-			candle.SetActive(true);
+			//Destroy(gameObject);
+			newcandle.SetActive(true);
+			candle.SetActive(false);
+
 			//gameObject.GetComponent<ParticleSystem>().enableEmission = false;
 			pickedup = true;
 		}

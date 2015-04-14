@@ -9,13 +9,7 @@ public class Lights_off : MonoBehaviour {
 
 	public int Counter = 0;
 
-	//GameObject pickup_check = GameObject.Find("Candle 4");
-	//Pickup_Candle bScript = pickup_check.GetComponent<Pickup_Candle>();
-	//Pickup_Candle.pickedup();
-
-	//public static bool picked_up;
-
-	//private bool withinRadius;
+	private static bool candle_req2;
 
 	private Light Candle_Lights;
 	float timeLeft = 2.0f;
@@ -29,7 +23,7 @@ public class Lights_off : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		//picked_up = Pickup_Candle.pickedup;
+		candle_req2 = Pickup_Candle.pickedup;
 
 		timeLeft -= Time.deltaTime;
 		if (timeLeft < 0 && Counter == 0) {
@@ -38,7 +32,7 @@ public class Lights_off : MonoBehaviour {
 			print("The light should be off");
 			Counter = 1;
 		}
-		if (Input.GetMouseButtonDown (0) && Counter == 1 && withinRadius == true) 
+		if (candle_req2 == true && Input.GetMouseButtonDown (0) && Counter == 1 && withinRadius == true) 
 			
 		{
 			//turn on lights
