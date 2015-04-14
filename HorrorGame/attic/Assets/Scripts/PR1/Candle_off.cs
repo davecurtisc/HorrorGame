@@ -5,7 +5,7 @@ public class Candle_off : MonoBehaviour {
 
 	private bool withinRadius;
 
-	public int lit_candles = 0;
+	public static int lit_candles = 0;
 
 	float timeLeft = 2.0f;
 
@@ -19,6 +19,8 @@ public class Candle_off : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+
+
 		candle_req = Pickup_Candle.pickedup;
 
 		timeLeft -= Time.deltaTime;
@@ -27,17 +29,25 @@ public class Candle_off : MonoBehaviour {
 			//turn off lights
 			//Candles.enabled = false;
 			gameObject.GetComponent<ParticleSystem>().enableEmission = false;
-			print("The particle should be off");
+			//print("The particle should be off");
 
 		}
-		if (candle_req == true && Input.GetMouseButtonDown (0) && withinRadius == true) 
-			
+	
+		if (candle_req == true && Input.GetMouseButtonDown(0) && withinRadius == true) 
 		{
 			//turn on lights
 			//print("The particle should be back on");
 			gameObject.GetComponent<ParticleSystem>().enableEmission = true;
 			lit_candles++;
-			print(lit_candles);
+			CheckForAllCandles(lit_candles);
+		}
+	}
+
+	public void CheckForAllCandles(int candleCount)
+	{
+		if (lit_candles == 7) 
+		{
+			// Activate the door collider
 		}
 	}
 

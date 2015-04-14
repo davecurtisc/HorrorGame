@@ -295,13 +295,11 @@ public class laser_Levels : MonoBehaviour {
 			
 		}
 
-		if (CanPressLever11 == true && Input.GetMouseButtonDown (0)) {
-			//Rod8_on = !Rod8_on;
-			//Rod8.SetActive(Rod8_on);
-		
-			print ("Wheel turned");
+		if (CanPressLever11 == true && Input.GetMouseButtonDown (0)) 
+		{
 			cage.transform.position = new Vector3(-137,5,-117);
-			
+			Lever11.GetComponent<Animation>().Play("wheelRotate");
+			print ("Rotate");
 		}
 	}
 
