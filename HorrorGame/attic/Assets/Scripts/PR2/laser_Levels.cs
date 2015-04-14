@@ -116,125 +116,182 @@ public class laser_Levels : MonoBehaviour {
 		//If touching lever and click mouse then setactive or !setactive rods
 
 		if (CanPressLever1 == true && Input.GetMouseButtonDown (0)) {
-			//Rod1_on = !Rod1_on;
-			//Rod1.SetActive(Rod1_on);
-			//print ("Rod1 should be toggled");
 
 			//lever pull
-			Puller1.transform.eulerAngles = new Vector3(3,90,315);
-			Puller1_down = true;
 
-
-			fire1.SetActive(false);
-
+			if(Puller1_down == false)
+			{
+				print ("pull down");
+				Puller1.transform.eulerAngles = new Vector3(3,90,315);
+				Puller1_down = true;
+				fire1.SetActive(false);
+			} else if(Puller1_down)
+			{
+				// Original position
+				print ("pull up");
+				Puller1.transform.eulerAngles = new Vector3(3,90,215);
+				Puller1_down = false;
+				fire1.SetActive(true);
+			}
 		}
 	
 		if (CanPressLever2 == true && Input.GetMouseButtonDown (0)) {
-			//Rod2_on = !Rod2_on;
-			//Rod2.SetActive(Rod2_on);
-			//print ("Rod2 should be toggled");
-
-			//lever pull
-			Puller2.transform.eulerAngles = new Vector3(39,176,1);
-			Puller2_down = true;
-
-			fire2.SetActive(false);
+			if(Puller2_down == false)
+			{
+				print ("pull down");
+				Puller2.transform.eulerAngles = new Vector3(39,176,1);
+				Puller2_down = true;
+				fire2.SetActive(false);
+			} else if(Puller2_down)
+			{
+				// Original position
+				print ("pull up");
+				Puller2.transform.eulerAngles = new Vector3(36,356,179);
+				Puller2_down = false;
+				fire2.SetActive(true);
+			}
 			
 		}
 		if (CanPressLever3 == true && Input.GetMouseButtonDown (0)) {
-			//Rod3_on = !Rod3_on;
-			//Rod3.SetActive(Rod3_on);
-			//print ("Puller3 should be toggled");
-
-			Puller3.transform.eulerAngles = new Vector3(66,-182,1);
-			Puller3_down = true;
-
-			fire3.SetActive(false);
+			if(Puller3_down == false)
+			{
+				print ("pull down");
+				Puller3.transform.eulerAngles = new Vector3(66,-182,1);
+				Puller3_down = true;
+				fire3.SetActive(false);
+			} else if(Puller3_down)
+			{
+				// Original position
+				print ("pull up");
+				Puller3.transform.eulerAngles = new Vector3(47,356,179);
+				Puller3_down = false;
+				fire3.SetActive(true);
+			}
 			
 		}
 
 		if (CanPressLever4 == true && Input.GetMouseButtonDown(0)) {
-			//Rod4.SetActive (true);
-			print ("Puller4 should be toggled");
-			//Rod4_on = !Rod4_on;
-			//Rod4.SetActive(Rod4_on);
-
-			Puller4.transform.eulerAngles = new Vector3(50,180,3);
-			Puller4_down = true;
-			
-			fire4.SetActive(false);
+			if(Puller4_down == false)
+			{
+				print ("pull down");
+				Puller4.transform.eulerAngles = new Vector3(50,180,3);
+				Puller4_down = true;
+				fire4.SetActive(false);
+			} else if(Puller4_down)
+			{
+				// Original position
+				print ("pull up");
+				Puller4.transform.eulerAngles = new Vector3(48,356,177);
+				Puller4_down = false;
+				fire4.SetActive(true);
+			}
 
 		}
 
 		if (CanPressLever5 == true && Input.GetMouseButtonDown (0)) {
-			//Rod1_on = !Rod1_on;
-			//Rod1.SetActive(Rod1_on);
-			//print ("Rod1 should be toggled");
-
-			Puller5.transform.eulerAngles = new Vector3(-52,175,3);
-			Puller5_down = true;
-			
-			fire1.SetActive(true);
+			if(Puller5_down == false)
+			{
+				print ("pull down");
+				Puller5.transform.eulerAngles = new Vector3(-52,175,3);
+				Puller5_down = true;
+				fire1.SetActive(true);
+			} else if(Puller5_down)
+			{
+				// Original position
+				print ("pull up");
+				Puller5.transform.eulerAngles = new Vector3(305,1,176);
+				Puller5_down = false;
+				fire1.SetActive(false);
+			}
 
 			}
 
 		if (CanPressLever6 == true && Input.GetMouseButtonDown (0)) {
-			//Rod5_on = !Rod5_on;
-			//Rod5.SetActive(Rod5_on);
-			//print ("Rod5 should be toggled");
-
-			Puller6.transform.eulerAngles = new Vector3(305,175,3);
-			Puller6_down = true;
-			
-			fire5.SetActive(false);
+			if(Puller6_down == false)
+			{
+				print ("pull down");
+				Puller6.transform.eulerAngles = new Vector3(305,175,3);
+				Puller6_down = true;
+				fire5.SetActive(false);
+			} else if(Puller6_down)
+			{
+				// Original position
+				print ("pull up");
+				Puller6.transform.eulerAngles = new Vector3(305,1,176);
+				Puller6_down = false;
+				fire5.SetActive(true);
+			}
 			
 		}
 
 		if (CanPressLever7 == true && Input.GetMouseButtonDown (0)) {
-			//Rod4_on = !Rod4_on;
-			//Rod4.SetActive(Rod4_on);
-			print ("Rod4 should be toggled");
-
-			Puller7.transform.eulerAngles = new Vector3(48,179,3);
-			Puller7_down = true;
-			
-			fire4.SetActive(true);
-			
+			if(Puller7_down == false)
+			{
+				print ("pull down");
+				Puller7.transform.eulerAngles = new Vector3(48,179,3);
+				Puller7_down = true;
+				fire4.SetActive(true);
+			} else if(Puller4_down)
+			{
+				// Original position
+				print ("pull up");
+				Puller7.transform.eulerAngles = new Vector3(46,356,177);
+				Puller7_down = false;
+				fire4.SetActive(false);
+			}
 		}
 
 		if (CanPressLever8 == true && Input.GetMouseButtonDown (0)) {
-			//Rod6_on = !Rod6_on;
-			//Rod6.SetActive(Rod6_on);
-			//print ("Rod6 should be toggled");
-
-			Puller8.transform.eulerAngles = new Vector3(50,-179,3);
-			Puller8_down = true;
-			
-			fire6.SetActive(false);
+			if(Puller8_down == false)
+			{
+				print ("pull down");
+				Puller8.transform.eulerAngles = new Vector3(50,-179,3);
+				Puller8_down = true;
+				fire6.SetActive(false);
+			} else if(Puller8_down)
+			{
+				// Original position
+				print ("pull up");
+				Puller8.transform.eulerAngles = new Vector3(50,356,177);
+				Puller8_down = false;
+				fire6.SetActive(true);
+			}
 			
 		}
 
 		if (CanPressLever9 == true && Input.GetMouseButtonDown (0)) {
-			//Rod1_on = !Rod1_on;
-			//Rod1.SetActive(Rod1_on);
-			//print ("Rod6 should be toggled");
-
-			Puller9.transform.eulerAngles = new Vector3(57,-178,3);
-			Puller9_down = true;
-			
-			fire1.SetActive(true);
+			if(Puller9_down == false)
+			{
+				print ("pull down");
+				Puller9.transform.eulerAngles = new Vector3(57,-178,3);
+				Puller9_down = true;
+				fire1.SetActive(true);
+			} else if(Puller4_down)
+			{
+				// Original position
+				print ("pull up");
+				Puller9.transform.eulerAngles = new Vector3(40,356,177);
+				Puller9_down = false;
+				fire1.SetActive(false);
+			}
 			
 		}
 
 		if (CanPressLever10 == true && Input.GetMouseButtonDown (0)) {
-			//Rod7_on = !Rod7_on;
-			//Rod7.SetActive(Rod7_on);
-			//print ("Rod7 should be toggled");
-
-			Puller10.transform.eulerAngles = new Vector3(2,-92,-66);
-			Puller10_down = true;
-			
-			fire7.SetActive(false);
+			if(Puller10_down == false)
+			{
+				print ("pull down");
+				Puller10.transform.eulerAngles = new Vector3(2,-92,-66);
+				Puller10_down = true;
+				fire7.SetActive(false);
+			} else if(Puller10_down)
+			{
+				// Original position
+				print ("pull up");
+				Puller10.transform.eulerAngles = new Vector3(2,265,227);
+				Puller10_down = false;
+				fire7.SetActive(true);
+			}
 			
 		}
 
@@ -242,7 +299,7 @@ public class laser_Levels : MonoBehaviour {
 			//Rod8_on = !Rod8_on;
 			//Rod8.SetActive(Rod8_on);
 		
-			print ("Rod8 should be toggled");
+			print ("Wheel turned");
 			cage.transform.position = new Vector3(-137,5,-117);
 			
 		}

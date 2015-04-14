@@ -41,10 +41,11 @@ public class Story_attic : MonoBehaviour {
 
 
 	}
-
+	/*
 	private IEnumerator Wait(int value) // 2 second delay on the mouse press
 	{
 		yield return new WaitForSeconds(1.0f);
 		output.text = outputTips [value];
 	}
+	*/
 }

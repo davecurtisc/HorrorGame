@@ -1,14 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PR1\Candle_off.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PR2\laser_Levels.cs">
     <Files>
-      <File FileName="Assets\Scripts\PR1\P2_Completion.cs" Line="8" Column="3" />
       <File FileName="Assets\Scripts\TouchableObject.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\TryTouch.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Door_hallway.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PR2\Door_PR2.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PR1\Lights_off.cs" Line="38" Column="20" />
-      <File FileName="Assets\Scripts\PR1\Candle_off.cs" Line="43" Column="37" />
+      <File FileName="Assets\Scripts\PR1\Lights_off.cs" Line="1" Column="19" />
+      <File FileName="Assets\Scripts\PR1\Candle_off.cs" Line="27" Column="21" />
+      <File FileName="Assets\Scripts\PR1\Pickup_Candle.cs" Line="26" Column="30" />
+      <File FileName="Assets\Scripts\PR2\laser_Levels.cs" Line="291" Column="59" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

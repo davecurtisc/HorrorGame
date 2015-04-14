@@ -5,7 +5,7 @@ public class Candle_off : MonoBehaviour {
 
 	private bool withinRadius;
 
-	public int Counter = 0;
+	public int lit_candles = 0;
 
 	float timeLeft = 2.0f;
 
@@ -22,21 +22,22 @@ public class Candle_off : MonoBehaviour {
 		candle_req = Pickup_Candle.pickedup;
 
 		timeLeft -= Time.deltaTime;
-		if(timeLeft < 0 && Counter == 0)
+		if(timeLeft < 0 && lit_candles == 0)
 		{
 			//turn off lights
 			//Candles.enabled = false;
 			gameObject.GetComponent<ParticleSystem>().enableEmission = false;
-			Counter = 1;
 			print("The particle should be off");
 
 		}
-		if (candle_req == true && Input.GetMouseButtonDown (0) && Counter == 1 && withinRadius == true) 
+		if (candle_req == true && Input.GetMouseButtonDown (0) && withinRadius == true) 
 			
 		{
 			//turn on lights
-			print("The particle should be back on");
+			//print("The particle should be back on");
 			gameObject.GetComponent<ParticleSystem>().enableEmission = true;
+			lit_candles++;
+			print(lit_candles);
 		}
 	}
 
