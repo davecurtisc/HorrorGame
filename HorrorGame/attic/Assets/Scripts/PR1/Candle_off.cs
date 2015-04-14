@@ -40,6 +40,7 @@ public class Candle_off : MonoBehaviour {
 			gameObject.GetComponent<ParticleSystem>().enableEmission = true;
 			lit_candles++;
 			CheckForAllCandles(lit_candles);
+			print(lit_candles);
 		}
 	}
 
