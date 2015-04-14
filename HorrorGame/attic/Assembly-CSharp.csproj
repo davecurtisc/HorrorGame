@@ -65,12 +65,16 @@
      <Compile Include="Assets\Scripts\LightFlickerPulse.cs" />
      <Compile Include="Assets\Scripts\Light_Candle.cs" />
      <Compile Include="Assets\Scripts\Lights_off.cs" />
+     <Compile Include="Assets\Scripts\PR2\Death_trigger.cs" />
+     <Compile Include="Assets\Scripts\PR2\Door_PR2.cs" />
+     <Compile Include="Assets\Scripts\PR2\laser_Levels.cs" />
+     <Compile Include="Assets\Scripts\PR2\puzzle2Key.cs" />
      <Compile Include="Assets\Scripts\Pickup_Candle.cs" />
+     <Compile Include="Assets\Scripts\Restart.cs" />
      <Compile Include="Assets\Scripts\Story.cs" />
      <Compile Include="Assets\Scripts\Story_attic.cs" />
      <Compile Include="Assets\Scripts\TouchableObject.cs" />
      <Compile Include="Assets\Scripts\TryTouch.cs" />
-     <Compile Include="Assets\Scripts\laser_Levels.cs" />
      <Compile Include="Assets\SimpleParticlePack\Scripts\ParticleTester.cs" />
      <None Include="Assets\Materials\Wood texture floor_01\readme.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
