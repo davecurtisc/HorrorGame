@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PR2\laser_Levels.cs">
+    <Files>
+      <File FileName="Assets\Scripts\PR1\Pickup_Candle.cs" Line="12" Column="38" />
+      <File FileName="Assets\Scripts\PR1\Candle_off.cs" Line="12" Column="33" />
+      <File FileName="Assets\Scripts\PR1\PR1_Story.cs" Line="7" Column="2" />
+      <File FileName="Assets\Scripts\PR2\laser_Levels.cs" Line="301" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
