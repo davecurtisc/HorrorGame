@@ -73,6 +73,7 @@
      <Compile Include="Assets\Scripts\P2_Completion.cs" />
      <Compile Include="Assets\Scripts\PR1\Candle.cs" />
      <Compile Include="Assets\Scripts\PR1\Candle_off.cs" />
+     <Compile Include="Assets\Scripts\PR1\Door_Room1.cs" />
      <Compile Include="Assets\Scripts\PR1\Light_Candle.cs" />
      <Compile Include="Assets\Scripts\PR1\Lights_off.cs" />
      <Compile Include="Assets\Scripts\PR1\PR1_Story.cs" />
@@ -82,6 +83,7 @@
      <Compile Include="Assets\Scripts\PR2\laser_Levels.cs" />
      <Compile Include="Assets\Scripts\PR2\puzzle2Key.cs" />
      <Compile Include="Assets\Scripts\Page_Turner.cs" />
+     <Compile Include="Assets\Scripts\Paper2.cs" />
      <Compile Include="Assets\Scripts\Restart.cs" />
      <Compile Include="Assets\Scripts\Start_Game.cs" />
      <Compile Include="Assets\Scripts\Story.cs" />

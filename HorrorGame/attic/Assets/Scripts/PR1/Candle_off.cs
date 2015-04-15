@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Candle_off : MonoBehaviour {
@@ -11,9 +11,13 @@ public class Candle_off : MonoBehaviour {
 
 	private static bool candle_req;
 
+	public static bool can_open_door;
+
 	// Use this for initialization
 	void Start () {
 		//Candles = GetComponent<Light>();
+
+		can_open_door = false;
 	}
 	
 	// Update is called once per frame
@@ -48,7 +52,7 @@ public class Candle_off : MonoBehaviour {
 	{
 		if (lit_candles == 7) 
 		{
-			// Activate the door collider
+			can_open_door = true;
 		}
 	}
 

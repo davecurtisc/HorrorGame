@@ -9,9 +9,11 @@ public class Door_hallway : MonoBehaviour {
 	
 	public Text output;
 
+	public AudioClip door_creak;
+
 	// Use this for initialization
 	void Start () {
-
+		//door_creak = GetComponent<AudioSource>;
 	}
 	
 	// Update is called once per frame
@@ -23,7 +25,10 @@ public class Door_hallway : MonoBehaviour {
 		}
 
 		if (canopen == true && Input.GetKeyDown (KeyCode.E)) {
+
+
 			Application.LoadLevel ("Room1"); 
+			//audio.PlayOneShot(door_creak, 1.0f);
 		}
 
 	}
