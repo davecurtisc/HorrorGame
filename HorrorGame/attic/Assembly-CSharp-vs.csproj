@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\Door_attic.cs" />
      <Compile Include="Assets\Scripts\Door_hallway.cs" />
      <Compile Include="Assets\Scripts\KeyCount.cs" />
+     <Compile Include="Assets\Scripts\Key_Active_Script.cs" />
      <Compile Include="Assets\Scripts\LightFlickerPulse.cs" />
      <Compile Include="Assets\Scripts\P2_Completion.cs" />
      <Compile Include="Assets\Scripts\PR1\Candle.cs" />
@@ -90,7 +91,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
      <None Include="Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/David/Desktop/HorrorGame/HorrorGame/attic/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Carlos/Documents/GitHub/HorrorGame/HorrorGame/attic/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
