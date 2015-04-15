@@ -56,6 +56,10 @@
      <Compile Include="Assets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
      <Compile Include="Assets\ParticleSystems\Scripts\SmokeParticles.cs" />
      <Compile Include="Assets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
+     <Compile Include="Assets\Scripts\Attic_Door.cs" />
+     <Compile Include="Assets\Scripts\Audio_Continues.cs" />
+     <Compile Include="Assets\Scripts\Box2.cs" />
+     <Compile Include="Assets\Scripts\Box_searching.cs" />
      <Compile Include="Assets\Scripts\Crosshair_match.cs" />
      <Compile Include="Assets\Scripts\Death.cs" />
      <Compile Include="Assets\Scripts\Door_attic.cs" />
@@ -65,6 +69,7 @@
      <Compile Include="Assets\Scripts\Leave_Tile_Puzzle.cs" />
      <Compile Include="Assets\Scripts\Lever.cs" />
      <Compile Include="Assets\Scripts\LightFlickerPulse.cs" />
+     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
      <Compile Include="Assets\Scripts\P2_Completion.cs" />
      <Compile Include="Assets\Scripts\PR1\Candle.cs" />
      <Compile Include="Assets\Scripts\PR1\Candle_off.cs" />
@@ -76,6 +81,7 @@
      <Compile Include="Assets\Scripts\PR2\Door_PR2.cs" />
      <Compile Include="Assets\Scripts\PR2\laser_Levels.cs" />
      <Compile Include="Assets\Scripts\PR2\puzzle2Key.cs" />
+     <Compile Include="Assets\Scripts\Page_Turner.cs" />
      <Compile Include="Assets\Scripts\Restart.cs" />
      <Compile Include="Assets\Scripts\Start_Game.cs" />
      <Compile Include="Assets\Scripts\Story.cs" />
