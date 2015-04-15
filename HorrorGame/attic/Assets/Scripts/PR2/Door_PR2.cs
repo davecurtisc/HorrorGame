@@ -27,7 +27,7 @@ public class Door_PR2 : MonoBehaviour {
 		}
 		
 		if (canopen == true && Input.GetKeyDown (KeyCode.E) && keyreturn == true) {
-			Application.LoadLevel ("Hallway2"); 
+			Application.LoadLevel ("Hallway3"); 
 
 			print("Hallway 2 should load");
 		}
