@@ -3,6 +3,8 @@ using System.Collections;
 
 public class Restart : MonoBehaviour {
 
+	// check for which room the player just left
+
 	// Use this for initialization
 	void Start () {
 

@@ -106,6 +106,10 @@ public class laser_Levels : MonoBehaviour {
 
 	public GameObject cage;
 
+	public int wheel_Turns = 0;
+
+	public bool turned_Once = false;
+
 	// Use this for initialization
 	void Start () {
 
@@ -295,11 +299,29 @@ public class laser_Levels : MonoBehaviour {
 			
 		}
 
-		if (CanPressLever11 == true && Input.GetMouseButtonDown (0)) 
+		if (CanPressLever11 == true && Input.GetMouseButtonDown (0) && turned_Once == false) 
 		{
-			cage.transform.position = new Vector3(-137,5,-117);
-			Lever11.GetComponent<Animation>().Play("wheelRotate");
+			wheel_Turns = 1;
+			cage.transform.position = new Vector3(-137,15,-117);
+			Lever11.GetComponent<Animation>().Play("vault_turn");
 			print ("Rotate");
+			turned_Once = true;
+		}
+
+		else if (wheel_Turns == 1 && Input.GetMouseButtonDown (0) && turned_Once == true) {
+
+			wheel_Turns = 2;
+			cage.transform.position = new Vector3(-137,10,-117);
+			Lever11.GetComponent<Animation>().Play("vault_turn");
+			print ("Rotate twice");
+		}
+
+		else if (wheel_Turns == 2 && Input.GetMouseButtonDown (0) && turned_Once == true) {
+			
+			wheel_Turns = 3;
+			cage.transform.position = new Vector3(-137,5,-117);
+			Lever11.GetComponent<Animation>().Play("vault_turn");
+			print ("Rotate three times");
 		}
 	}
 

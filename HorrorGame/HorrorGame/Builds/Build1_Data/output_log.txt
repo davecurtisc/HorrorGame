@@ -1,0 +1,178 @@
+Initialize engine version: 5.0.0f4 (5b98b70ebeb9)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.0]
+    Renderer: NVIDIA GeForce 8800 GTX (ID=0x191)
+    Vendor:   NVIDIA
+    VRAM:     739 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\dcurtis\Desktop\HorrorGame\HorrorGame\Builds\Build1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\dcurtis\Desktop\HorrorGame\HorrorGame\Builds\Build1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\dcurtis\Desktop\HorrorGame\HorrorGame\Builds\Build1_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\dcurtis\Desktop\HorrorGame\HorrorGame\Builds\Build1_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\dcurtis\Desktop\HorrorGame\HorrorGame\Builds\Build1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\dcurtis\Desktop\HorrorGame\HorrorGame\Builds\Build1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\dcurtis\Desktop\HorrorGame\HorrorGame\Builds\Build1_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\dcurtis\Desktop\HorrorGame\HorrorGame\Builds\Build1_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\dcurtis\Desktop\HorrorGame\HorrorGame\Builds\Build1_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\dcurtis\Desktop\HorrorGame\HorrorGame\Builds\Build1_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\dcurtis\Desktop\HorrorGame\HorrorGame\Builds\Build1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\dcurtis\Desktop\HorrorGame\HorrorGame\Builds\Build1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.132 seconds
+desktop: 1920x1200 59Hz; virtual: 3840x1200 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\dcurtis\Desktop\HorrorGame\HorrorGame\Builds\Build1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\dcurtis\Desktop\HorrorGame\HorrorGame\Builds\Build1_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\dcurtis\Desktop\HorrorGame\HorrorGame\Builds\Build1_Data\Managed\Boo.Lang.dll (this message is harmless)
+door should open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.597095 ms
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 1059.
+Total: 0.657397 ms (FindLiveObjects: 0.069502 ms CreateObjectMapping: 0.058751 ms MarkObjects: 0.347514 ms  DeleteObjects: 0.180477 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: f60 -> priority: 1 
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.302123 ms
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 744.
+Total: 0.649333 ms (FindLiveObjects: 0.046079 ms CreateObjectMapping: 0.034175 ms MarkObjects: 0.396281 ms  DeleteObjects: 0.172413 ms)
+
+The particle should be off
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The particle should be off
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The light should be off
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The particle should be off
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The light should be off
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The light should be off
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The light should be off
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The particle should be off
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The particle should be off
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The light should be off
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The particle should be off
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The particle should be off
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The light should be off
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The light should be off
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The particle should be back on
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The light should be back on
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The light should be back on
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The particle should be back on
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The light should be back on
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The particle should be back on
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The light should be back on
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The particle should be off
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The particle should be off
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The particle should be off
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The particle should be off
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The particle should be off
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The particle should be off
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The particle should be off
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The particle should be back on
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The light should be back on
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The particle should be back on
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The particle should be back on
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+The light should be back on
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+

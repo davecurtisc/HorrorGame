@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Lever.cs" />
      <Compile Include="Assets\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs" />
      <Compile Include="Assets\ParticleSystems\Scripts\ExplosionFireAndDebris.cs" />
      <Compile Include="Assets\ParticleSystems\Scripts\ExplosionPhysicsForce.cs" />
@@ -64,6 +63,7 @@
      <Compile Include="Assets\Scripts\KeyCount.cs" />
      <Compile Include="Assets\Scripts\Key_Active_Script.cs" />
      <Compile Include="Assets\Scripts\Leave_Tile_Puzzle.cs" />
+     <Compile Include="Assets\Scripts\Lever.cs" />
      <Compile Include="Assets\Scripts\LightFlickerPulse.cs" />
      <Compile Include="Assets\Scripts\P2_Completion.cs" />
      <Compile Include="Assets\Scripts\PR1\Candle.cs" />
@@ -77,6 +77,7 @@
      <Compile Include="Assets\Scripts\PR2\laser_Levels.cs" />
      <Compile Include="Assets\Scripts\PR2\puzzle2Key.cs" />
      <Compile Include="Assets\Scripts\Restart.cs" />
+     <Compile Include="Assets\Scripts\Start_Game.cs" />
      <Compile Include="Assets\Scripts\Story.cs" />
      <Compile Include="Assets\Scripts\Story_attic.cs" />
      <Compile Include="Assets\Scripts\TouchableObject.cs" />
@@ -93,7 +94,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
      <None Include="Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/Carlos/Documents/GitHub/HorrorGame/HorrorGame/attic/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/David/Desktop/HorrorGame/HorrorGame/attic/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
