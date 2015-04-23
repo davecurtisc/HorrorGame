@@ -7,6 +7,7 @@ public class Door_hallway : MonoBehaviour {
 	private bool withinRadius_D1;
 	private bool withinRadius_D2;
 	private bool withinRadius_D3;
+	private bool withinRadius_D4;
 
 	public bool canopen = false;
 	
@@ -37,6 +38,11 @@ public class Door_hallway : MonoBehaviour {
 			canopen = true;
 		}
 
+		if (withinRadius_D4 == true) {
+			output.text = "Press E to enter";
+			canopen = true;
+		}
+
 		if (withinRadius_D1 == true && Input.GetKeyDown (KeyCode.E)) {
 
 
@@ -58,6 +64,13 @@ public class Door_hallway : MonoBehaviour {
 			//audio.PlayOneShot(door_creak, 1.0f);
 		}
 
+		if (withinRadius_D4 == true && Input.GetKeyDown (KeyCode.E)) {
+			
+			
+			Application.LoadLevel ("First_Floor_Alpha"); 
+			//audio.PlayOneShot(door_creak, 1.0f);
+		}
+
 	}
 
 	void OnTriggerEnter(Collider other)
@@ -69,7 +82,10 @@ public class Door_hallway : MonoBehaviour {
 			withinRadius_D2 = true;
 
 		if(other.gameObject.tag == "D3")
-			withinRadius_D2 = true;
+			withinRadius_D3 = true;
+
+		if(other.gameObject.tag == "D4")
+			withinRadius_D3 = true;
 
 	}
 	
@@ -82,6 +98,9 @@ public class Door_hallway : MonoBehaviour {
 			withinRadius_D2 = false;
 
 		if(other.gameObject.tag == "D3")
-			withinRadius_D2 = false;
+			withinRadius_D3 = false;
+
+		if(other.gameObject.tag == "D4")
+			withinRadius_D3 = false;
 	}
 }
