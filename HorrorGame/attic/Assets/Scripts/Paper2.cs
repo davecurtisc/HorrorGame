@@ -20,7 +20,7 @@ public class Paper2 : MonoBehaviour {
 			print ("should be reading");
 		}
 
-		if(Input.GetMouseButtonDown(1)){
+		if(withinRadius_Paper2 == false && Input.GetMouseButtonDown(0)){
 			paper2.SetActive(false);
 
 		}

@@ -20,6 +20,7 @@ public class Door_PR2 : MonoBehaviour {
 	void Update () {
 
 		keyreturn = puzzle2Key.pickedup;
+		print (puzzle2Key.pickedup);
 		
 		if (withinRadius_D2 == true) {
 			//output.text = "Press E to enter";

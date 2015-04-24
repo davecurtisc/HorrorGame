@@ -17,6 +17,7 @@ public class Door_Room1 : MonoBehaviour {
 			Application.LoadLevel("Hallway2");
 
 			print("should load new level");
+
 		}
 
 		//print (clearance);
