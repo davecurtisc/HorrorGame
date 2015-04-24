@@ -1,10 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Paper2.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Attic\Attic_Door.cs">
     <Files>
-      <File FileName="attic.sln" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PR2\Door_PR2.cs" Line="23" Column="31" />
-      <File FileName="Assets\Scripts\Paper2.cs" Line="23" Column="64" />
+      <File FileName="Assets\Scripts\Attic\Goal_Attic.cs" Line="28" Column="1" />
+      <File FileName="Assets\Scripts\TouchableObject.cs" Line="16" Column="20" />
+      <File FileName="Assets\Scripts\Attic\Attic_Door.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

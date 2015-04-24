@@ -46,8 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\GUI_key.js" />
-     <Compile Include="Assets\Scripts\GUI_look.js" />
      <Compile Include="Assets\Scripts\LightFlicker.js" />
      <None Include="Assets\Materials\Wood texture floor_01\readme.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
