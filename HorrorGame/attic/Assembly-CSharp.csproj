@@ -63,6 +63,9 @@
      <Compile Include="Assets\Scripts\Crosshair_match.cs" />
      <Compile Include="Assets\Scripts\Death.cs" />
      <Compile Include="Assets\Scripts\Door_hallway.cs" />
+     <Compile Include="Assets\Scripts\Door_hallway2.cs" />
+     <Compile Include="Assets\Scripts\Door_hallway3.cs" />
+     <Compile Include="Assets\Scripts\Door_hallway4.cs" />
      <Compile Include="Assets\Scripts\KeyCount.cs" />
      <Compile Include="Assets\Scripts\Key_Active_Script.cs" />
      <Compile Include="Assets\Scripts\Leave_Tile_Puzzle.cs" />
