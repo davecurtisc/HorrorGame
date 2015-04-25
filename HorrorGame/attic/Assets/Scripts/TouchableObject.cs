@@ -6,6 +6,7 @@ public class TouchableObject : MonoBehaviour
 	public GameObject displayImage;
 
 	public static bool read_Paper = false;
+
 	
 	void OnTouch()
 	{

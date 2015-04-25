@@ -6,6 +6,8 @@ public class Door_Room1 : MonoBehaviour {
 
 	public bool withinRadius_room1Door = false;
 
+	public static bool can_Exit = false;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -13,7 +15,10 @@ public class Door_Room1 : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (withinRadius_room1Door = true && Input.GetKeyDown (KeyCode.E)) {
+
+		can_Exit = Candle_off.can_open_door;
+
+		if (withinRadius_room1Door = true && can_Exit == true && Input.GetKeyDown (KeyCode.E)) {
 			Application.LoadLevel("Hallway2");
 
 			print("should load new level");

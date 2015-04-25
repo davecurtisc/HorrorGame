@@ -53,6 +53,8 @@ public class Candle_off : MonoBehaviour {
 		if (lit_candles == 7) 
 		{
 			can_open_door = true;
+
+			print("you have all the candles");
 		}
 	}
 
