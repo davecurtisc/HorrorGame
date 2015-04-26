@@ -1,13 +1,16 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\scene_Fade_in_out.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PR2\Death_trigger.cs">
     <Files>
-      <File FileName="Assets\Scripts\sceneChanger.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\TouchableObject.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Death.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SphereActive.cs" Line="35" Column="1" />
-      <File FileName="Assets\Scripts\sphere1.cs" Line="16" Column="31" />
-      <File FileName="Assets\Scripts\scene_Fade_in_out.cs" Line="24" Column="1" />
+      <File FileName="Assets\Scripts\PR2\puzzle2Key.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PR2\Door_PR2.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PR1\Door_Room1.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Key_Active_Script.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Tile_note.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PR2\Death_trigger.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Control_menu.cs" Line="21" Column="24" />
+      <File FileName="Assets\Scripts\Start_Game.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

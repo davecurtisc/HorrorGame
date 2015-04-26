@@ -110,8 +110,15 @@ public class laser_Levels : MonoBehaviour {
 
 	public bool turned_Once = false;
 
+	public static bool audio_on = true;
+
+
+
 	// Use this for initialization
 	void Start () {
+		
+		//audio_on = true;
+
 
 	}
 	
@@ -306,6 +313,7 @@ public class laser_Levels : MonoBehaviour {
 			Lever11.GetComponent<Animation>().Play("vault_turn");
 			print ("Rotate");
 			turned_Once = true;
+			//audia.mute = true;
 		}
 
 		else if (wheel_Turns == 1 && Input.GetMouseButtonDown (0) && turned_Once == true) {
@@ -314,6 +322,7 @@ public class laser_Levels : MonoBehaviour {
 			cage.transform.position = new Vector3(-137,10,-117);
 			Lever11.GetComponent<Animation>().Play("vault_turn");
 			print ("Rotate twice");
+			audio_on = false;
 		}
 
 		else if (wheel_Turns == 2 && Input.GetMouseButtonDown (0) && turned_Once == true) {

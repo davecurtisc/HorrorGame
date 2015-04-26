@@ -8,11 +8,15 @@ public class Door_PR2 : MonoBehaviour {
 	public bool canopen = false;
 
 	private static bool keyreturn;
+
+	public GameObject lock_gui;
 	
 	//public Text output;
 	
 	// Use this for initialization
 	void Start () {
+
+		lock_gui.SetActive (false);
 		
 	}
 	
@@ -35,8 +39,21 @@ public class Door_PR2 : MonoBehaviour {
 
 		if (canopen == true && Input.GetKeyDown (KeyCode.E) && keyreturn == false) {
 			print("You need the key");
+
+			lock_gui.SetActive(true);
+
+			StartCoroutine(locked_leaves());
 		}
 		
+	}
+
+	IEnumerator locked_leaves()
+	{
+		
+		yield return new WaitForSeconds(2);
+		
+		lock_gui.SetActive(false);
+		//Do Function here...
 	}
 	
 	void OnTriggerEnter(Collider other)

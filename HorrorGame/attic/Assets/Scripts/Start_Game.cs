@@ -12,7 +12,7 @@ public class Start_Game : MonoBehaviour {
 	void Update () {
 		if (Input.GetKeyDown("space")) 
 		{
-			Application.LoadLevel("Attic");
+			Application.LoadLevel("Controls");
 			
 			print("Attic should load");
 		}

@@ -8,8 +8,12 @@ public class Door_Room1 : MonoBehaviour {
 
 	public static bool can_Exit = false;
 
+	public GameObject lock_Gui2;
+
 	// Use this for initialization
 	void Start () {
+
+		lock_Gui2.SetActive (false);
 	
 	}
 	
@@ -25,7 +29,24 @@ public class Door_Room1 : MonoBehaviour {
 
 		}
 
+		if (withinRadius_room1Door = true && can_Exit == false && Input.GetKeyDown (KeyCode.E)) {
+		
+		
+			lock_Gui2.SetActive(true);
+
+			StartCoroutine(locked_leaves());
+		}
+
 		//print (clearance);
+	}
+
+	IEnumerator locked_leaves()
+	{
+		
+		yield return new WaitForSeconds(2);
+		
+		lock_Gui2.SetActive(false);
+		//Do Function here...
 	}
 
 	void OnTriggerEnter(Collider other)

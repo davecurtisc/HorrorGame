@@ -13,7 +13,7 @@ public class Death_trigger : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (alive == false) {
-			Application.LoadLevel("Death");
+			Application.LoadLevel("Room2");
 		}
 	}
 
