@@ -1,68 +1,6 @@
 Base path: C:/Program Files/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-2-6716
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-2-2424
 Cmd: getPlatforms
-Cmd: compileSnippet
-  api=0 type=0 insize=3569 outsize=1898 kw=SPOT ok=1
-Cmd: compileSnippet
-  api=0 type=1 insize=3569 outsize=6 kw=SPOT ok=1
-Cmd: compileSnippet
-  api=0 type=1 insize=3569 outsize=6 kw=DIRECTIONAL_COOKIE ok=1
-Cmd: compileSnippet
-  api=0 type=0 insize=4616 outsize=3190 kw=POINT_COOKIE ok=1
-Cmd: compileSnippet
-  api=0 type=1 insize=4616 outsize=6 kw=SPOT ok=1
-Cmd: compileSnippet
-  api=0 type=1 insize=1706 outsize=6 kw=SOFTPARTICLES_ON ok=1
-Cmd: compileSnippet
-  api=8 type=0 insize=6731 outsize=7589 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON ok=1
-Cmd: compileSnippet
-  api=1 type=1 insize=6731 outsize=241 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
-Cmd: compileSnippet
-  api=1 type=0 insize=3569 outsize=339 kw=POINT ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=3569 outsize=2737 kw=SPOT ok=1
-Cmd: compileSnippet
-  api=8 type=0 insize=3569 outsize=3876 kw=POINT_COOKIE ok=1
-Cmd: compileSnippet
-  api=8 type=1 insize=3569 outsize=2836 kw=POINT ok=1
-Cmd: compileSnippet
-  api=1 type=1 insize=3569 outsize=465 kw=POINT_COOKIE ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=3569 outsize=1656 kw=DIRECTIONAL_COOKIE ok=1
-Cmd: compileSnippet
-  api=8 type=0 insize=7178 outsize=7069 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
-Cmd: compileSnippet
-  api=8 type=0 insize=4616 outsize=5672 kw=DIRECTIONAL ok=1
-Cmd: compileSnippet
-  api=8 type=0 insize=4616 outsize=5672 kw=POINT_COOKIE ok=1
-Cmd: compileSnippet
-  api=1 type=1 insize=4616 outsize=718 kw=POINT ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4616 outsize=3216 kw=SPOT ok=1
-Cmd: compileSnippet
-  api=1 type=1 insize=4616 outsize=639 kw=DIRECTIONAL_COOKIE ok=1
-Cmd: compileSnippet
-  api=8 type=1 insize=4616 outsize=3722 kw=DIRECTIONAL_COOKIE ok=1
-Cmd: compileSnippet
-  api=1 type=0 insize=1706 outsize=335 kw=SOFTPARTICLES_ON ok=1
-Cmd: compileSnippet
-  api=8 type=0 insize=1706 outsize=2966 kw=SOFTPARTICLES_ON ok=1
-Cmd: compileSnippet
-  api=1 type=1 insize=1706 outsize=272 kw=SOFTPARTICLES_ON ok=1
-Cmd: compileSnippet
-  api=1 type=1 insize=3272 outsize=323 kw= ok=1
-Cmd: compileSnippet
-  api=1 type=1 insize=3270 outsize=317 kw= ok=1
-Cmd: compileSnippet
-  api=1 type=0 insize=1245 outsize=258 kw= ok=1
-Cmd: compileSnippet
-  api=1 type=1 insize=1609 outsize=681 kw= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=9591 outsize=10618 kw= ok=1
-Cmd: compileSnippet
-  api=1 type=1 insize=9591 outsize=837 kw= ok=1
-Cmd: compileSnippet
-  api=8 type=1 insize=9591 outsize=4233 kw=UNITY_COLORSPACE_GAMMA ok=1
 Unhandled exception: Readfile from pipe failed. GLE=The pipe has been ended.
 
 

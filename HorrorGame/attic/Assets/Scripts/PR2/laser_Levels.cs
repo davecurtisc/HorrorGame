@@ -112,12 +112,20 @@ public class laser_Levels : MonoBehaviour {
 
 	public static bool audio_on = true;
 
+	public GameObject Musicfire;
+
+	public GameObject Music_chain;
+
 
 
 	// Use this for initialization
 	void Start () {
 		
 		//audio_on = true;
+
+		Musicfire.SetActive (true);
+
+		Music_chain.SetActive (false);
 
 
 	}
@@ -313,6 +321,11 @@ public class laser_Levels : MonoBehaviour {
 			Lever11.GetComponent<Animation>().Play("vault_turn");
 			print ("Rotate");
 			turned_Once = true;
+
+			Musicfire.SetActive (false);
+
+			Music_chain.SetActive(true);
+			StartCoroutine(chain_leaves());
 			//audia.mute = true;
 		}
 
@@ -323,6 +336,12 @@ public class laser_Levels : MonoBehaviour {
 			Lever11.GetComponent<Animation>().Play("vault_turn");
 			print ("Rotate twice");
 			audio_on = false;
+
+			Musicfire.SetActive (false);
+
+			Music_chain.SetActive(true);
+			StartCoroutine(chain_leaves());
+
 		}
 
 		else if (wheel_Turns == 2 && Input.GetMouseButtonDown (0) && turned_Once == true) {
@@ -331,7 +350,19 @@ public class laser_Levels : MonoBehaviour {
 			cage.transform.position = new Vector3(-137,5,-117);
 			Lever11.GetComponent<Animation>().Play("vault_turn");
 			print ("Rotate three times");
+
+			Music_chain.SetActive(true);
+			StartCoroutine(chain_leaves());
 		}
+	}
+
+	IEnumerator chain_leaves()
+	{
+		
+		yield return new WaitForSeconds(1);
+		
+		Music_chain.SetActive(false);
+		//Do Function here...
 	}
 
 

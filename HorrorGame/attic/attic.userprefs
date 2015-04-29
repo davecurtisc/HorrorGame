@@ -1,16 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PR2\Death_trigger.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SphereActive.cs">
     <Files>
-      <File FileName="Assets\Scripts\TouchableObject.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PR2\puzzle2Key.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PR2\Door_PR2.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PR1\Door_Room1.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Key_Active_Script.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Tile_note.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PR2\Death_trigger.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Control_menu.cs" Line="21" Column="24" />
-      <File FileName="Assets\Scripts\Start_Game.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Restart_game.cs" Line="17" Column="16" />
+      <File FileName="Assets\Scripts\Start_Game.cs" Line="13" Column="3" />
+      <File FileName="Assets\Scripts\SphereActive.cs" Line="156" Column="39" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
